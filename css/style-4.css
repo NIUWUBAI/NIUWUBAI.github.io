@@ -1,0 +1,31 @@
+/* 背景 */
+.sec4 {
+    background: linear-gradient(to right top, #ffe0cc, #ff9f60);
+    min-height: 100vh;
+    background-size: 100%;
+}
+.sec4 .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 .slide p {
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: 0 1px 40px -10px #000;
+}
+.sec4 .slide img {
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: 0 1px 40px -10px #000;
+}
+.one {
+    width: 600px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    padding-left: 30px;
+}
